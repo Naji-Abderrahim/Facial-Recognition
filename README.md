@@ -27,7 +27,7 @@ This project implements facial recognition functionality.
     ```
     **Create a virtual environment**
     ```bash
-    python 3 -m venv fr_venv
+    python3 -m venv fr_venv
     ```
     **Activate Virtual Environment**
     ```bash
