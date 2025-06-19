@@ -12,15 +12,28 @@ This project implements facial recognition functionality.
 
 2.  **Install dependencies:**
 
-    **Create a virtual environment**
+    * Install tkinter if not installed
+    - Debian/Ubuntu based distributions
+    ```bash
+    sudo apt-get install python3-tk
+    ```
+    - Red Hat based distributions
+    ```bash
+    sudo yum install python3-tkinter
+    ```
+    - Arch Linux based distributions
+    ```bash
+    sudo pacman -S tk
+    ```
+    *Create a virtual environment
     ```bash
     python 3 -m venv fr_venv
     ```
-    **Activate Virtual Environment**
+    *Activate Virtual Environment
     ```bash
     source fr_venv/bin/activate
     ```
-    **Install dependencies:**
+    **Install dependencies:
     using `requirements.txt` 
     ```bash
     pip install -r requirements.txt
